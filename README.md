@@ -6,24 +6,25 @@ Please note that the SubLens ml-20m Dataset will be released upon acceptance.
 Therefore, Some of the functions of this repo are limited. 
 
 ### Installations
-please make sure you satisfy all of the packages requirements on requirements.txt file 
+The Code was built using Python 3.8.
+Please make sure you satisfy all of the packages requirements on requirements.txt file 
 
 ### Notes
-In the repo there are prerpocessed files including:
+In the repo there are pre-processed files including:
 
-- preprocessed json ready for experiment.
-- pretrained models for testing.
-- si vectors for training new models.
+- Preprocessed json ready for experiment.
+- Pretrained models for testing.
+- Si vectors for training new models.
 - LDA gensim model for plotting movies topics.
 
-please run Main.py -h for the full explanations and available models.
+Please run Main.py -h for the full explanations and available models.
 
 For Running the Code run in the cmd Main.py, and add arguments for the specific task.
 
 
 #### Plot movie topics by id
-plot_movie_topics.py -r plot_movie_topics --movie <movie_imdb_id> --topics <n_topics_to_print> --words <n_words_in_topic>
-imdb id can be retrieved from the address line (the number after the tt). 
+Plot_movie_topics.py -r plot_movie_topics --movie <movie_imdb_id> --topics <n_topics_to_print> --words <n_words_in_topic>
+Imdb id can be retrieved from the address line (the number after the tt). 
 We provided a screen shot in extract_imdb_id.jpg to demonstrate that.
 
 
@@ -40,5 +41,5 @@ Main.py -r preprocess_data
 
 ## Upon acceptance methods
 The next methods require the Subtitles, Hence, will be available upon acceptance
-methods: create_si_vectors, create_sentences_bert_embeddings, train_cnn_model
+Methods: create_si_vectors, create_sentences_bert_embeddings, train_cnn_model
 
