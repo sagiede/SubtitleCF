@@ -1,0 +1,20 @@
+
+# Plot Movie Topics requirements:
+
+numpy
+pandas
+gensim
+matplotlib
+wordcloud
+
+
+# Additional requirements for the other Scripts :
+
+nltk
+scikit-learn
+torch
+transformers
+sentence_transformers
+tqdm
+pysrt
+regex
