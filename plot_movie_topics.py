@@ -94,7 +94,7 @@ def plot_lda_topics_wordclouds(lda_model, chosen_topics_to_print_ids, num_words=
     n_topics_to_print = len(topics)
 
     axis_x_size, axis_y_size = get_axis_sizes_by_n_topics(n_topics_to_print)
-    fig, axes = plt.subplots(axis_x_size, axis_y_size, figsize=(75, 55), sharex=True, sharey=True)
+    fig, axes = plt.subplots(axis_x_size, axis_y_size, figsize=(60, 60), sharex=True, sharey=True)
 
     for i, ax in enumerate(axes.flatten()):
         if i >= len(topics):
@@ -103,7 +103,7 @@ def plot_lda_topics_wordclouds(lda_model, chosen_topics_to_print_ids, num_words=
         topic_words = dict(topics[i][1])
         cloud.generate_from_frequencies(topic_words, max_font_size=300)
         plt.gca().imshow(cloud)
-        plt.gca().set_title('Topic ' + str(i + 1), fontdict=dict(size=50))
+        plt.gca().set_title('Topic ' + str(i + 1), fontdict=dict(size=30))
         plt.gca().axis('off')
 
     plt.subplots_adjust(wspace=0, hspace=0)
