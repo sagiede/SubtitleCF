@@ -8,6 +8,11 @@ SubLens ml-20m Dataset will be released upon acceptance.
 The Code was built using Python 3.8.
 Make sure you satisfy all of the packages requirements on requirements.txt file 
 
+Before running the scripts, Access the next link:
+https://drive.google.com/file/d/1a2DsLHm34Lbo9eE8olyzFgKQYGM5wJ2E
+ 
+ and extract the DATA folder into SubtitleCF.
+
 ### Notes
 In the repo there are pre-processed files including:
 
