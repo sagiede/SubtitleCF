@@ -123,8 +123,7 @@ def eval_measures_on_topk(all_topk_preds, num_of_users, num_of_items, users_test
 def filter_test_data_to_group(users_test_set_items, cold_items_t5, cold_items_t10, cold_items_t20):
     read_from_file = True
     if read_from_file:
-        items_cold_split_test_data_path = os.path.join(data_path,
-                                                       'preprocessed/items_cold_splitting_test_data_o2stars.json')
+        items_cold_split_test_data_path = os.path.join(data_path, 'preprocessed', 'items_cold_splitting_test_data_o2stars.json')
         with open(items_cold_split_test_data_path, 'r') as f:
             test_items_dict = json.load(f)
         return test_items_dict

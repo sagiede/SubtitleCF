@@ -1,5 +1,6 @@
 import argparse
 import os
+import re
 
 import gensim
 import numpy as np
@@ -130,6 +131,7 @@ def plot_movie_topics_by_movielense_id(imdb_id, n_topics, n_words_per_topic):
         movie_topic_ids = [topic[0] for topic in movie_topic_scores if topic[1] > 0][:n_topics]
         lda_model = gensim.models.LdaModel.load(os.path.join(models_dir_path, 'LDA_gensim_model',
                                                              consts.lda_subs_model_file))
+        movie_name = re.sub(r"[\\/:*?\"<>|]", "", movie_name)
         print(f'Plotting Word-cloud for movie: {movie_name}')
         plot_lda_topics_wordclouds(lda_model, chosen_topics_to_print_ids=movie_topic_ids,
                                    num_words=n_words_per_topic, title_name=movie_name)

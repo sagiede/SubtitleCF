@@ -94,7 +94,6 @@ def load_si_vectors(train_items):
         si_fvs = load_si_vectors_from_cnn()
     else:
         si_vecs_filepath = os.path.join(side_info_vectors_dir, conf.si_vectors_name)
-        print(si_vecs_filepath)
         all_movies_vectors = np.loadtxt(si_vecs_filepath)
         movielens_ids = [int(idx[0]) for idx in all_movies_vectors[:, :1].tolist()]
         movies_vector = all_movies_vectors[:, 1:]

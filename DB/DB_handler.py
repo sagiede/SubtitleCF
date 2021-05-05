@@ -87,5 +87,5 @@ def load_preprocessed_data():
 
 
 def get_model_path(model_name):
-    model_path = f'{models_dir_path}/{model_name}.pt'
+    model_path = os.path.join(models_dir_path, f'{model_name}.pt')
     return model_path

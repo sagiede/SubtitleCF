@@ -1,20 +1,23 @@
 
-# Plot Movie Topics requirements:
+# requirements for RS Scripts :
 
-numpy
+torch
+transformers
+sentence_transformers
+nltk
+pysrt
+scikit-learn # will be installed automatically
+
+
+# requirements for Plot Movie Topics :
+
 pandas
 gensim
 matplotlib
 wordcloud
 
 
-# Additional requirements for the other Scripts :
-
-nltk
-scikit-learn
-torch
-transformers
-sentence_transformers
+# next packages will be installed allready as a dependency
+numpy
 tqdm
-pysrt
 regex
