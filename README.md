@@ -1,5 +1,5 @@
 # SubtitleCF
-##### Exploring the Use of Subtitles for Enhanced Movie Recommendations - Git repo for RecSys paper.
+##### Exploring the Use of Subtitles for Enhanced Movie Recommendations - Git repo for UMAP 2022: 30th ACM Conference.
 
 SubLens ml-20m Dataset will be released upon acceptance.
  
