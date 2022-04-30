@@ -1,7 +1,5 @@
 # SubtitleCF
 ##### Investigating the Value of Subtitles for Improved Movie Recommendations - Git repo for UMAP 2022: 30th ACM Conference.
-
-SubLens ml-20m Dataset will be released upon acceptance.
  
 
 ## Sublens-20M Dataset
