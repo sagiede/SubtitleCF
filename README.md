@@ -1,8 +1,18 @@
 # SubtitleCF
-##### Exploring the Use of Subtitles for Enhanced Movie Recommendations - Git repo for UMAP 2022: 30th ACM Conference.
+##### Investigating the Value of Subtitles for Improved Movie Recommendations - Git repo for UMAP 2022: 30th ACM Conference.
 
 SubLens ml-20m Dataset will be released upon acceptance.
  
+
+## Sublens-20M Dataset
+https://tinyurl.com/sublens20m
+
+### Properties:
+The dataset contains 19.25k subtitles for movies from Movielens-20M Dataset.
+In overall, the dataset matches 71% of the movies, which covers 98.3% of the interactions in movielens-20M Dataset.
+Each file of movie subtitle contains in avg 7.3k words and 1.6k sentences. 
+
+## SubtitleCF Implementation
 
 #### Installations
 The Code was built using conda and Python 3.8.
@@ -55,4 +65,24 @@ The next methods require Subtitles. Hence, they will be available upon acceptanc
 - create_si_vectors
 - create_sentences_bert_embeddings
 - train_cnn_model
+
+
+## Citation
+
+- Sagi Eden. (2022). Investigating the Value of Subtitles for Improved Movie Recommendations.
+- ___ XXXXXXXXX ___ (Paper link here).
+- https://github.com/sagiede/SubtitleCF.
+
+If you find this code useful in your research, please cite it using the following BibTeX:
+
+```bibtex
+@inproceedings{XXXXXXX,
+  title = {Investigating the Value of Subtitles for Improved Movie Recommendations},
+  author={Sagi Eden, Amit Livne, Oren Sar Shalom, Bracha Shapira, Dietmar Janach},
+  booktitle={Proceedings of the 30th ACM Conference on User Modeling, Adaptation and Personalization},
+  pages={XXXXX--XXXXX},
+  year={2022}
+}
+```
+
 
