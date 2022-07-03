@@ -73,8 +73,8 @@ Command:  python Main.py -r preprocess_data
 ## Citation
 
 - Sagi Eden. (2022). Investigating the Value of Subtitles for Improved Movie Recommendations.
-- ___ XXXXXXXXX ___ (Paper link here).
-- https://github.com/sagiede/SubtitleCF.
+- https://dl.acm.org/doi/10.1145/3503252.3531291
+- https://github.com/sagiede/SubtitleCF
 
 If you find this code/Dataset useful in your research, please cite the following paper:
 
@@ -84,12 +84,12 @@ Spain. ACM, New York, NY, USA, 17 pages.
 
 BibTeX:
 ```bibtex
-@inproceedings{XXXXXXX,
-  title = {Investigating the Value of Subtitles for Improved Movie Recommendations},
-  author={Sagi Eden, Amit Livne, Oren Sar Shalom, Bracha Shapira, Dietmar Janach},
-  booktitle={Proceedings of the 30th ACM Conference on User Modeling, Adaptation and Personalization},
-  pages={XXXXX--XXXXX},
-  year={2022}
+@inproceedings{10.1145/3503252.3531291,
+author = {Eden, Sagi and Livne, Amit and Sar Shalom, Oren and Shapira, Bracha and Jannach, Dietmar},
+title = {Investigating the Value of Subtitles for Improved Movie Recommendations},
+year = {2022},
+booktitle = {Proceedings of the 30th ACM Conference on User Modeling, Adaptation and Personalization},
+pages = {99–109},
 }
 ```
 
